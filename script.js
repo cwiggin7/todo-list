@@ -27,5 +27,10 @@ function createNewTodo(title, description, dueDate, priority, projectID) {
 }
 
 (function () {
-    console.log("this is a test.");
+    
 })();
+
+const buttonTodayProjects = document.querySelector("#button-today-projects");
+buttonTodayProjects.addEventListener("click", () => {
+    console.log("this is a test.");
+});
