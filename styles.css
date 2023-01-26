@@ -39,7 +39,7 @@ body {
     font-weight: inherit;
 }
 
-.button-default-project {
+button {
     text-align: left;
     width: 100%;
     padding: 10px 20px;
@@ -53,13 +53,30 @@ body {
 }
 
 .button-default-project:focus {
+    background: #F0F0F0;
+    color: #000;
     font-weight: bold;
 }
 
-.button-default-project:focus,
-.button-default-project:hover {
+button:hover {
     background: #F0F0F0;
     color: #000;
+}
+
+#projects-preview {
+    width: 80vw;
+    padding: 20px 40px;
+}
+
+#project-name {
+    font-weight: inherit;
+    color: #FFF;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.button-add-task {
+    color: #FFF;
 }
 
 h2 {

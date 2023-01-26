@@ -26,11 +26,11 @@ function createNewTodo(title, description, dueDate, priority, projectID) {
     localStorage.setItem(todo.ID, JSON.stringify(todo));
 }
 
-(function () {
-    
-})();
+// (function () {
 
-const buttonTodayProjects = document.querySelector("#button-today-projects");
-buttonTodayProjects.addEventListener("click", () => {
-    console.log("this is a test.");
-});
+// })();
+
+// const buttonTodayProjects = document.querySelector("#button-today-projects");
+// buttonTodayProjects.addEventListener("click", () => {
+
+// });
